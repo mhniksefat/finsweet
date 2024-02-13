@@ -1,0 +1,111 @@
+header{
+    width: 100%;
+    height: auto;
+    background-color: #EFF7F2;
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-flow: row;
+}
+header span{
+    width: 140px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 140px;
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+header .menu{
+    width: 633px;
+    height: 51px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-right: 140px;
+    line-height: 51px;
+}
+
+header .donate-2{
+    display: none;
+}
+
+
+
+
+details{
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: none;
+}
+summary{
+    cursor: pointer;
+    font-weight: bold;
+
+}
+details ul{
+    list-style-type: none;
+    padding: 0;
+}
+details ul li{
+    padding: 5px 0;
+}
+details ul li a{
+    text-decoration: none;
+    color: #333;
+}
+details ul li a:hover{
+    color: #555;
+}
+
+@media (max-width: 1200px){
+    details{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+header .menu a{
+    text-transform: capitalize;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+header .menu .bold{
+    text-transform: capitalize;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+header .menu .donate{
+    width: 115px;
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    line-height: 43px;
+    margin-top: 4px;
+    background-color: #1D2130;
+    margin-left: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+header .menu .donate a{
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+}

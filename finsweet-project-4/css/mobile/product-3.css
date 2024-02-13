@@ -1,0 +1,98 @@
+.product-3{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-3 .center{
+    width: 85%;
+    height: auto;
+}
+.product-3 .center .our{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.product-3 .center .center-c{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.product-3 .center .center-c .item{
+    width: 400px;
+    height: 275px;
+    padding-top: 30px;
+    box-sizing: border-box;
+    margin-top: 17px;
+    margin-bottom: 30px;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border-radius: 8px;
+    background-color: #BEF3C0;
+}
+.product-3 .center .center-c .item .item-2{
+    width: auto;
+    height: auto;
+    padding-top: 32px;
+    display: flex;
+    flex-flow: row;
+    box-sizing: border-box;
+}
+.product-3 .center .center-c .item .item-2 h6{
+    width: auto;
+    height: auto;
+    font-size: 48px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.product-3 .center .center-c .item .item-2 h5{
+    width: auto;
+    height: auto;
+    font-size: 17px;
+    margin-left: 5px;
+    margin-top: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.product-3 .center .center-c .item .item-3{
+    width: 390px;
+    height: 100%;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+.product-3 .center .center-c .item .item-3 h6{
+    width: 123px;
+    height: 19px;
+    margin-bottom: 8px;
+    font-size: 16px;
+    display: flex;
+    justify-content: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.product-3 .center .center-c .item .item-3 p{
+    width: auto;
+    height: auto;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: left;
+}
+.product-3 .center .center-c .item .item-4{
+    width: 60px;
+    height: 100%;
+    padding-top: 13px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+

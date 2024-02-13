@@ -1,0 +1,66 @@
+.product-2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    box-sizing: border-box;
+}
+.product-2 .center{
+    width: 85%;
+    height: auto;
+}
+.product-2 .center .top{
+    width: 100%;
+    height: auto;
+    margin-bottom: 60px;
+}
+.product-2 .center .top h6{
+    width: 488px;
+    height: 58px;
+    margin: 0 auto;
+    color: black;
+    font-size: 32px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.product-2 .center .top p{
+    width: 450px;
+    height: 52px;
+    margin: 0 auto;
+    color: #1D2130;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.product-2 .center .paeen{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 20px;
+}
+.product-2 .center .paeen .item{
+    width: 302px;
+    height: 328px;
+}
+.product-2 .center .paeen .item h6{
+    font-size: 20px;
+    color: black;
+    line-height: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.product-2 .center .paeen .item p{
+    font-size: 16px;
+    color: #1D2130;
+    margin-top: 20px;
+    line-height: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
